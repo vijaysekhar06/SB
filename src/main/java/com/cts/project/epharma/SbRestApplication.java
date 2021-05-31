@@ -12,10 +12,10 @@ public class SbRestApplication {
 		SpringApplication.run(SbRestApplication.class, args);
 	}
 	
-	@GetMapping("/ab")
+	@GetMapping("/ab/{name}")
 	public String hello()
 	{
-		return "Hello Jenkins.......";
+		return "Hello Jenkins......."+name;
 	}
 	
 }
