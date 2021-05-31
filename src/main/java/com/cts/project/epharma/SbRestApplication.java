@@ -18,4 +18,5 @@ public class SbRestApplication {
 	{
 		return "Hello Jenkins";
 	}
+	
 }
