@@ -18,7 +18,7 @@ public class SbRestApplication {
 	public String hello(@PathVariable("name") String name)
 	{
 
-		return "Hello Jenkins......."+name;
+		return ".....Hello Jenkins......."+name;
 	
 	}
 	
