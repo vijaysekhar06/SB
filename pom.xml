@@ -42,7 +42,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>abcd</finalName>
+		<finalName>cd</finalName>
 	</build>
 
 </project>
